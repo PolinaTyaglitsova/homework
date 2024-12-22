@@ -3,7 +3,7 @@
 import copy
 
 my_list = [1,2,3,4,5]
-shift = 3
+shift = 2
 
 for i in range(shift):
     result = copy.deepcopy(my_list)
