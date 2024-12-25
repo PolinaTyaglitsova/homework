@@ -1,19 +1,18 @@
 #Дан список целых чисел и длина подмассива k. Нужно найти подмассив длины k, сумма элементов которого будет максимальной
-import copy
 
 my_list = [1, -2, 3, 4, -1, 2, 1, -5, 4]
-result = copy.deepcopy(my_list)
 k = 3
 max_0 = 0
 
-def proverka(max_0):
-   for i in range(k):
-     max = max_0 + int(result[i])
-if max > max_0:
-   max_0 == max
+def proverka(my_list,k):
+   max_0  = sum(my_list[:k])
+   max1 = max_0
 
-for j in range(len(my_list)):
-   print(proverka(max_0))
-   result.pop(0)
+   for i in range(k,len(my_list)):
+     max1 = max1 + my_list[i] - my_list[i-k]
+     max_0 = max(max_0 ,max1)
 
-print(max_0)
+   return max_0
+
+result = proverka(my_list,k)
+print(result)
