@@ -4,7 +4,5 @@
 #подсчитает, сколько слов в предложении
 sentence = "Python is a powerful and easy-to-learn programmig language"
 word = sentence.replace('-', ' ').split(' ')
-#word = sentence.split(' ')
-#print(word)
 print('\n'.join(word))
 print(len(word))
