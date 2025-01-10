@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: laba_package
+Version: 0.1
+Summary: Проект содержит в себе  функции для решения Лаборотрной работы №2
+Author: Полина Тяглицова
+Author-email: polinka.nya_nya@mail.ru
+Requires-Dist: requests>=2.20.0
+Requires-Dist: numpy>=1.18.0

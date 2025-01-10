@@ -1,0 +1,7 @@
+setup.py
+laba_package.egg-info/PKG-INFO
+laba_package.egg-info/SOURCES.txt
+laba_package.egg-info/dependency_links.txt
+laba_package.egg-info/entry_points.txt
+laba_package.egg-info/requires.txt
+laba_package.egg-info/top_level.txt

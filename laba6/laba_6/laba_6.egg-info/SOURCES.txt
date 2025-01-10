@@ -1,0 +1,10 @@
+setup.py
+laba_6/__init__.py
+laba_6/file1.py
+laba_6/file2.py
+laba_6/file3.py
+laba_6/file4.py
+laba_6.egg-info/PKG-INFO
+laba_6.egg-info/SOURCES.txt
+laba_6.egg-info/dependency_links.txt
+laba_6.egg-info/top_level.txt
